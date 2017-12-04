@@ -164,7 +164,7 @@ void send_uevent_lpwg(struct i2c_client* client, int type)
 			input_report_key(ts->input_dev, KEY_WAKEUP, BUTTON_RELEASED);
 			input_sync(ts->input_dev);
 	}
-
+}
 /* touch_i2c_read / touch_i2c_write
  *
  * Developer can use these fuctions to communicate with touch_device through I2C.
