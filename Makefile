@@ -195,7 +195,7 @@ export KBUILD_BUILDHOST := $(SUBARCH)
 #ARCH		?= $(SUBARCH)
 #CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
 ARCH = arm
-CROSS_COMPILE = ~/prebuilt/arm-eabi-4.8/bin/arm-eabi-
+CROSS_COMPILE = ~/prebuilt/arm-eabi-4.8/arm-eabi/bin/
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)
 SRCARCH 	:= $(ARCH)
